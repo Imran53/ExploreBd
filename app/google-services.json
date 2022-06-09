@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "112610674684",
+    "project_id": "explore-bd-53356",
+    "storage_bucket": "explore-bd-53356.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112610674684:android:4006337e413c4dc5211479",
+        "android_client_info": {
+          "package_name": "com.example.explorebd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112610674684-0cdujmg1ku9275ru7gdep605i4ughhuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.explorebd",
+            "certificate_hash": "558743df285558da5ed4b64e821786f2b7837e97"
+          }
+        },
+        {
+          "client_id": "112610674684-fpdo1hclj9jb3hv1ib0ah29esnd4ccnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZnze9btWbQ-m4W8yB2rfEA2FmN7vDOao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112610674684-fpdo1hclj9jb3hv1ib0ah29esnd4ccnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

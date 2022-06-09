@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/feedbackId"
+
+        android:title="আমাদের সম্পর্কে"/>
+
+    <item
+        android:id="@+id/feedbackId1"
+
+        android:title="আপনার প্রতিক্রিয়া"/>
+
+    <item
+
+        android:id="@+id/facebookId"
+        android:title="ফেসবুকে আমরা"
+
+        android:icon="@drawable/facebook"/>
+
+    <item
+
+    android:id="@+id/shareId"
+    android:title="শেয়ার করুন"
+
+    />
+    <item
+
+        android:id="@+id/shareIddemo"
+        android:title="শেয়ার করুন111"
+
+        />
+
+
+
+</menu>

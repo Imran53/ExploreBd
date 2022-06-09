@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageSlider"/>
+
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="18dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src ="@drawable/locationn"
+                        android:id="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:paddingLeft="5dp"
+                        android:textSize="13.6sp"
+                        android:textColor="#4A6ACA"
+                        android:id="@+id/tumi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="খুলনা শহর থেকে সুন্দরবনের দূরত্ব প্রায় ১০৪ কি.মি."
+                        android:layout_toEndOf="@+id/imageTumi1"
+                        android:layout_toRightOf="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:text="অপরূপ সৌন্দর্যের লীলাভূমি পৃথিবীর সবচেয়ে বড় ম্যানগ্রোভ বন বা লবণাক্ত বনাঞ্চল সুন্দরবন। সুন্দরবনের মোট আয়তন প্রায় ১০ হাজার বর্গ কিলোমিটার, যা যৌথভাবে বাংলাদেশ ও ভারতের মধ্যে অবস্থিত। সুন্দরবনের বাংলাদেশ অংশের আয়তন ৬,০১৭ বর্গ কিলোমিটার। খুলনা , সাতক্ষীরা, বাগেরহাট, পটুয়াখালি ও বরগুনা জেলার অংশ নিয়েই বাংলাদেশের সুন্দরবন। ১৯৯৭ সালে এটি বিশ্ব ঐতিহ্য হিসেবে স্বীকৃতি লাভ করে।\n\nপরস্পর সংযুক্ত প্রায় ৪০০ নদী-নালা, খালসহ প্রায় ২০০টি ছোট বড় দ্বীপ ছড়িয়ে আছে সুন্দরবনে। রয়েল বেঙ্গল টাইগার সহ  নানান ধরণের পাখি, চিত্রা হরিণ, কুমির ও সাপসহ অসংখ্য প্রজাতির প্রাণীর আবাসস্থল হিসেবে সুন্দরবন পরিচিত। সুন্দরবনের ভেতরে যাওয়ার একমাত্র উপায় নৌপথ। শীতকাল সুন্দরবন ভ্রমণের উপযুক্ত সময়।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:background="@drawable/rounded_border"
+                    android:id="@+id/textView22222111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="খুলনা বাংলাদেশের দক্ষিণ পশ্চিমাঞ্চলে রূপসা এবং ভৈরব নদীর তীরে অবস্থিত। বাংলাদেশের প্রাচীনতম নদী বন্দরগুলোর মধ্যে খুলনা অন্যতম। অতীতে খুলনা বাংলাদেশের অন্যতম শিল্প ও বাণিজ্যিক এলাকা হওয়ায় খুলনাকে এখনো শিল্প নগরী হিসেবে ডাকা হয়। খুলনা শহর থেকে ৪৮ কি.মি. দূরে বাংলাদেশের দ্বিতীয় সমুদ্র বন্দর মংলা সমুদ্র বন্দর অবস্থিত। পৃথিবী বিখ্যাত উপকূলীয় বন সুন্দরবন খুলনা জেলার দক্ষিণাংশে অবস্থিত। খুলনাকে সুন্দরবনের প্রবেশদ্বার বলা হয়।(সূত্রঃ উইকিপিডিয়া)"
+                    android:textColor="#413B3B"
+                    android:textSize="12sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="যেভাবে যাবেন :"
+                    android:textColor="#0C0B0B"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="ঢাকা থেকে বাস, ট্রেন এবং লঞ্চ এই তিনভাবে খুলনা যাওয়া যায়। যদি আপনি ঢাকা থেকে সড়ক পথে খুলনা যেতে চান তাহলে পৌঁছাতে সময় লাগবে ৮ ঘন্টার মত। ঢাকা থেকে হানিফ, সোহাগ, এবং ঈগল পরিবহন নিয়মিত ভোর ৬ টা থেকে রাত ১১ টা পর্যন্ত চলাচল করে খুলনার উদ্দেশ্য। এসি বাসের ভাড়া পড়বে প্রায় ১৪০০ টাকার মত আর নন এসি বাসের ভাড়া ৫৫০ টাকা।\n\nআর লঞ্চে যেতে চাইলে ঢাকার সদরঘাট লঞ্চ টার্মিনাল থেকে বিভিন্ন কোম্পানির লঞ্চ নিয়মিত যাতায়াত করে খুলনার উদ্দেশ্যে।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="থাকবেন কোথায় :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="সুন্দরবনের অভয়ারণ্যে টাইগার পয়েন্টের কচিখালী ও কটকায় এবং হিরণ পয়েন্টের নীলকমল এ বন বিভাগের রেস্টহাউজে থাকার ব্যবস্থা রয়েছে। ভাড়া নীলকমলে দেশি পর্যটকদের জন্য প্রতি কক্ষ ৩ হাজার টাকা, ৪ কক্ষ ১২ হাজার টাকা। কচিখালী প্রতি কক্ষ ৩ হাজার টাকা, ৪ কক্ষ ১০ হাজার টাকা। কটকা প্রতি কক্ষ ২ হাজার টাকা, ২ কক্ষ ৪ হাজার টাকা। বিদেশিদের কাছে ভাড়া কিন্তু প্রায় দ্বিগুণ।\n\nআর খুলনা মহানগরে থাকতে চাইলে হোটেল রয়েল, ক্যাসেল সালাম, হোটেল টাইগার গার্ডেন, হোটেল ওয়েস্ট ইন্, হোটেল সিটি ইন, হোটেল মিলিনিয়াম মানসম্পন্ন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="সুন্দরবন ভ্রমণ ফি : "
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView69"/>
+
+                <TextView
+                    android:id="@+id/textView5553"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="অভয়ারণ্য এলাকায় প্রত্যেক দেশি পর্যটকের প্রতিদিনের ফি ১৫০ টাকা, ছাত্রছাত্রী ৩০ টাকা, বিদেশি পর্যটক ১৫০০ টাকা। অভয়ারণ্যের বাইরে দেশি পর্যটক ৭০ টাকা ও বিদেশি ১০০০ টাকা, ছাত্রছাত্রী ২০টাকা, গবেষক ৪০ টাকা। করমজল দেশি ২০ টাকা, বিদেশি ৩০০ টাকা। বন বিভাগের নির্দিষ্ট ভ্রমণ ফি ছাড়াও প্রতিদিন গাইড ফি ৫০০ টাকা, লঞ্চ ক্রু ফি ৭০ টাকা, নিরাপত্তা গার্ড ফি ৩০০ টাকা, টেলিকমিউনিকেশন ফি ২০০ টাকা, ভিডিও ক্যামেরা ফি দেশি পর্যটক ২০০ টাকা এবং বিদেশি পর্যটক ৩০০ টাকা।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView2222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="সুন্দ্রবন ভ্রমণে দর্শনীয় স্থান :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/textView555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="* দুবলার চর\n* টাইগার পয়েন্ট\n* হীরন পয়েন্ট\n* মান্দারবাড়িয়া সৈকত\n* জামতলা সৈকত\n* কটকা বিচ"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView22222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="20dp"
+                    android:text="সুন্দরবন ভ্রমণকালে অবশ্যই সাথে রাখুন :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView5555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#F2F1F3"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="১) প্রয়োজনীয় ঔষধ ও প্রাথমিক চিকিৎসার  জিনিসপত্র।\n২) নিরাপদ খাবার পানি।\n৩) নিরাপত্তার জন্য সুদক্ষ ও সশস্ত্র বন প্রহরী  সাথে রাখুন।"
+                    android:textColor="#1F1C1C"
+                    android:textSize="16.5sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22222" />
+
+
+                <TextView
+
+                    android:id="@+id/textView2221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="phone"
+                    android:background="#D5D8EE"
+                    android:text="এছাড়া যেকোন সমস্যায় ট্যুরিষ্ট পুলিশের সাহায্য নিন। ট্যুরিষ্ট পুলিশের হটলাইন নাম্বার - ০১৭৬৯৬৯৩০১৩"
+                    android:textColorLink="#2B49E7"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5555" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

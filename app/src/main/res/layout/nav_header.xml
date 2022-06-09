@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/colorPrimary"
+    android:padding="10dp">
+
+
+
+    <ImageView
+        android:paddingTop="-100dp"
+        android:paddingStart="1dp"
+        android:paddingLeft="3dp"
+        android:layout_width="300dp"
+        android:layout_height='400dp'
+        android:src="@drawable/finalynav"/>
+
+    <TextView
+        android:textSize="26dp"
+        android:typeface="sans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore bd"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        android:paddingTop="-8dp"/>
+    <TextView
+        android:typeface="sans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="explorebd@gmail.com"
+        android:textColor="#050505"
+        />
+
+
+</LinearLayout>

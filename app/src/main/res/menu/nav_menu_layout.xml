@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:textSize="18sp"
+            android:id="@+id/diaryId"
+            android:title="আমাদের বাংলাদেশ"
+            android:icon="@drawable/bangladesh"
+            />
+
+
+        <item
+
+            android:textSize="18sp"
+            android:id="@+id/feedbackId1Id"
+            android:title="ফিডব্যাক"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            />
+
+    </group>
+
+    <item android:title="Communication">
+
+        <item
+            android:textSize="18sp"
+            android:id="@+id/aboutusId"
+            android:title="আমাদের সম্পর্কে"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            />
+
+
+
+        <item
+            android:textSize="18sp"
+            android:id="@+id/privacypolicyId"
+            android:title="প্রাইভেসি পলিসি"
+            android:icon="@drawable/ic_menu_share"
+            />
+
+
+
+
+
+
+    </item>
+
+
+
+
+
+</menu>

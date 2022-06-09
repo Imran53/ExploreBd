@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileCoxActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageSlider5"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="18dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src ="@drawable/locationn"
+                        android:id="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:paddingLeft="5dp"
+                        android:textSize="13.6sp"
+                        android:textColor="#4A6ACA"
+                        android:id="@+id/tumi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="চট্টগ্রাম শহর থেকে ফয়েজ লেকের দূরত্ব প্রায় ৮.৩ কি.মি."
+                        android:layout_toEndOf="@+id/imageTumi1"
+                        android:layout_toRightOf="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+                <TextView
+
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:text="ফয়েজ লেক চট্টগ্রামের পাহাড়তলী এলাকায় অবস্থিত একটি কৃত্রিম হ্রদ। প্রাকৃতিক অনন্য সৌন্দর্য্যের অধিকারী সবুজ পাহাড়ে ঘেরা এই লেক চট্টগ্রামের সৌন্দর্যের একটি অন্যতম পরিচয়। ১৯২৪ সালে আসাম বেঙ্গল রেলওয়ে কর্তৃপক্ষ এই হ্রদ খনন করে। তবে সেসময় এটি পাহাড়তলী লেক হিসেবে পরিচিত থাকলেও পরবর্তীতে ইংরেজ রেল প্রকৌশলী ফয়-এর নামানুসারে ফয়েজ লেক নামকরণ করা হয়। প্রায় ৩৩৬ একর জায়গা জুড়ে নির্মিত এই লেকটি পাহাড়ের মধ্যবর্তী বিশাল এক সরু উপত্যকায় আড়াআড়িভাবে বাঁধ নির্মাণের ফলে সৃষ্টি হয়েছে। এই লেকের সবচেয়ে বড় আকর্ষণ হচ্ছে লেকের সৌন্দর্য ও তার পার্শ্ববর্তী পাহাড়।\n\nহ্রদটিকে কেন্দ্র করে বাংলাদেশের সর্ববৃহৎ নির্মাণ প্রতিষ্ঠান কনকর্ড ফয়েজ লেক কনকর্ড নামে একটি বিনোদন উদ্যান স্থাপন করে, যেখানে দর্শনার্থীদের জন্য হ্রদে নৌকাভ্রমণ, রেস্তোরাঁ, ট্র্যাকিং এবং কনসার্ট এর আয়োজন করা হয়ে থাকে। বর্তমানে এখানে বিরল প্রজাতির পাখি এবং হরিণ পার্কে হরিণ দেখার ব্যবস্থা আছে। ফয়েজ হ্রদের পাশেই অবস্থিত চট্টগ্রাম চিড়িয়াখানা। এছাড়াও দর্শনার্থীরা কটেজ ভাড়া করে থাকতে পারেন। ফয়েজ লেকের অপার সৌন্দর্য আর মনমাতানো মনোরম পরিবেশ পর্যটকদের দারুণ ভাবে মুগ্ধ করে। তাই এটি সব সময় দর্শনার্থীদের পদচারনায় মুখরিত থাকে।\n\nতবে এই বিনোদনধর্মী পার্কের সবচেয়ে আকর্ষণীয় দিক হলো ‘সী ওয়ার্ল্ড’। লেকের একদম শেষ প্রান্তে অবস্থিত সী ওয়ার্ল্ডে যেতে চাইলে আপনাকে যেতে হবে নৌকা দিয়ে। সী ওয়ার্ল্ড হলো একটি বিশ্বমানের ওয়াটার থিম পার্ক যেখানে আধুনিক ও উন্নত অনেক ওয়াটার রাইডের ব্যবস্থা করা হয়েছে। আপনি এখানে গেলে বিভিন্ন ধরনের পুলের মধ্যে নিশ্চয়ই অনেকটা সময় কাটাতে পছন্দ করবেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:background="@drawable/rounded_border"
+                    android:id="@+id/textView22222111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="চট্টগ্রাম বাংলাদেশের দ্বিতীয় বৃহত্তম শহর। বন্দরনগরী নামে পরিচিত শহর, দেশের দক্ষিণ-পূর্বাঞ্চলের চট্টগ্রাম জেলায় অবস্থিত। বাণিজ্যিক রাজধানী হিসেবে পরিচিত পাহাড়, সমুদ্রে এবং উপত্যকায় ঘেরা চট্টগ্রাম শহর প্রাকৃতিক সৌন্দর্যের জন্যে প্রাচ্যের রাণী হিসেবে বিখ্যাত। ঢাকার পর বাংলাদেশের সবচেয়ে গুরত্বপূর্ণ শহর হচ্ছে চট্টগ্রাম। এখানে দেশের সর্ববৃহৎ বন্দর ছাড়াও বিভিন্ন ব্যবসা প্রতিষ্ঠান রয়েছে। এটি এশিয়ায় ৭ম এবং বিশ্বের ১০ম দ্রুততম ক্রমবর্ধমান শহর।(সূত্রঃ উইকিপিডিয়া)"
+                    android:textColor="#413B3B"
+                    android:textSize="12sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="ফয়েজ লেকে প্রবেশের সময়সূচী ও টিকেটের মূল্য :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="সপ্তাহে রবিবার থেকে বৃহঃস্পতিবার পর্যন্ত সকাল সাড়ে ১০ টা থেকে সন্ধ্যা ৬ টা পর্যন্ত এবং শুক্রবার ও শনিবার সন্ধ্যা ৭টা পর্যন্ত সর্বসাধারণের জন্য উন্মুক্ত থাকে।\n\nফয়েজ লেকের অ্যামিউজমেন্ট ওয়ার্ল্ডের সাধারণ প্রবেশমূল্য ৩০০ টাকা। আর সকল রাইড ও আইসক্রিমসহ প্রবেশ টিকিটের মূল্য জনপ্রতি ৩৫০ টাকা (বাম্পার কার ও বোট রাইড ব্যতীত)।\n\nসী ওয়াল্ডের ক্ষেত্রে - ফয়েজ লেক গেইট দিয়ে সী ওয়াল্ডে প্রবেশ করলে জনপ্রতি প্রবেশমূল্য ৬০০ টাকা (সাথে আইসক্রিম বা পেপসি ফ্রি) আর সী ওয়াল্ডের গেইট দিয়ে সী ওয়াল্ডে প্রবেশ করলে জনপ্রতি প্রবেশমূল্য ৫০০ টাকা(সাথে আইসক্রিম বা পেপসি ফ্রি)।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="যেভাবে যাবেন :"
+                    android:textColor="#0C0B0B"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="ঢাকা থেকে বাস, ট্রেন কিংবা বিমানযোগে চট্টগ্রাম যেতে পারেন। বাসের মধ্যে ইউনিক, সৌদিয়া, শ্যামলী, এস আলম, সোহাগ, সেন্টমার্টিন, গ্রীন লাইন ইত্যাদি পরিবহনের বাসে করে ৫ ঘণ্টার মধ্যে ঢাকা থেকে চট্টগ্রাম পৌঁছে যাবেন। বাসভেদে ভাড়া পড়বে ৪৮০ - ১২০০ টাকা।\n\nএছাড়া ঢাকা থেকে ট্রেন যোগে চট্টগ্রাম ভ্রমণ করতে চাইলে কমলাপুর বা বিমানবন্দর রেল স্টেশন থেকে সোনার বাংলা, সুবর্ণ এক্সপ্রেস, মহানগর প্রভাতী বা গোধূলী, চট্টগ্রাম মেইলে করে যাত্রা করতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <Button
+
+                    android:id="@+id/textView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    android:background="#F2F1F3"
+                    android:text="অনলাইনে -\nট্রেনের টিকেট : www.esheba.cnsbd.com"
+                    android:textColorLink="#7E90F0"
+                    android:textColor="#0C0B0B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="থাকবেন কোথায় :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="লেকের মনোরম পরিবেশে রাত্রিযাপনের জন্য এখানে আছে বিলাসবহুল কটেজ। সদ্য বিবাহিত কাপলদের জন্য রয়েছে বিশেষ হানিমুন কটেজ। লেকের ঠিক পাশেই অবস্থিত এইসব কটেজে রাত্রিযাপন সত্যি খুব চমকপ্রদ অভিজ্ঞতা হবে যে কারো জন্য। এছাড়া চট্টগ্রামের বিভিন্ন আবাসিক হোটেলে ও থাকতে পারবেন।এখানকার জনপ্রিয় সব পর্যটন হোটেলের বিস্তারিত তথ্য জানতে আপনি আমাদের পর্যটন হোটেল ক্যাটাগরি চেক করতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView2222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="ফয়েজ লেক ভ্রমণে দর্শনীয় স্থান :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/textView555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="* চট্টগ্রাম চিড়িয়াখানা\n* পতেঙ্গা সী বীচ\n* সিআরবি পাহাড়\n* বাটালী পাহাড় \n* ডি সি হিল\n* ওয়ার সিমেট্রি\n* জাতিতাত্ত্বিক জাদুঘর\n* বাংলাদেশ নেভাল একাডেমী"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView22222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="20dp"
+                    android:text="প্রয়োজনীয় তথ্য :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView5555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#F2F1F3"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="পরিষ্কার এই লেকটিতে যে-কোন ধরনের ময়লা-আবর্জনা ফেলা থেকে বিরত থাকুন। সাথে পলিব্যাগ রাখুন, যাতে ভেজা জামাকাপড় নিয়ে আসতে সুবিধা হয়।"
+                    android:textColor="#1F1C1C"
+                    android:textSize="16.5sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22222" />
+
+                <TextView
+
+                    android:id="@+id/textView2221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="phone"
+                    android:background="#D5D8EE"
+                    android:text="এছাড়া যেকোন সমস্যায় ট্যুরিষ্ট পুলিশের সাহায্য নিন। ট্যুরিষ্ট পুলিশের হটলাইন নাম্বার - ০১৭৬৯৬৯০৭৩০"
+                    android:textColorLink="#2B49E7"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5555" />
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

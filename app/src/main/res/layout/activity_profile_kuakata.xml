@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileCoxActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageSlider5"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="18dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src ="@drawable/locationn"
+                        android:id="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:paddingLeft="5dp"
+                        android:textSize="13.6sp"
+                        android:textColor="#4A6ACA"
+                        android:id="@+id/tumi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="পটুয়াখালী থেকে কুয়াকাটার দূরত্ব প্রায় ৬১ কি.মি."
+                        android:layout_toEndOf="@+id/imageTumi1"
+                        android:layout_toRightOf="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:text="১৮ কিলোমিটার দৈর্ঘ্যের সৈকত বিশিষ্ট কুয়াকাটা বাংলাদেশের অন্যতম নৈসর্গিক সমুদ্র সৈকত। পর্যটকদের কাছে এটি ' সাগর কন্যা ' হিসেবে পরিচিত। কুয়াকাটা  দক্ষিণ এশিয়ার একমাত্র সমুদ্র সৈকত যেখানে দাঁড়িয়ে সূর্যোদয় ও সূর্যাস্ত অবলোকন করা যায়।  সৈকতের পূর্ব প্রান্তে গঙ্গামতির বাঁক থেকে সূর্যোদয় সবচেয়ে ভালোভাবে দেখা যায়। আর সূর্যাস্ত দেখার উত্তম জায়গা হল কুয়াকাটার পশ্চিম সৈকত। সমুদ্র সৈকতের পাশেই দেড় শতাধিক একর জমিতে অবস্থিত নারিকেল বাগান যা ' নারিকেল কুঞ্জ ' নামেই পরিচিত। এই সৈকতে সারা বছরই দেখা মিলবে জেলেদের মাছ ধরার অপরূপ দৃশ্য।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:background="@drawable/rounded_border"
+                    android:id="@+id/textView22222111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="পটুয়াখালী জেলা বাংলাদেশের দক্ষিণাঞ্চলের বরিশাল বিভাগের একটি প্রশাসনিক অঞ্চল। মেঘনা নদীর অববাহিকায় পললভূমি এবং কিছু চরাঞ্চল নিয়ে এই জেলা গঠিত।(সূত্রঃ উইকিপিডিয়া)"
+                    android:textColor="#413B3B"
+                    android:textSize="12sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="যেভাবে যাবেন :"
+                    android:textColor="#0C0B0B"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="ঢাকা থেকে সড়ক ও নৌ পথে কুয়াকাটা যাওয়া যায়। ঢাকা থেকে সড়কপথে কুয়াকাটার দূরত্ব ৩৮০ কিমি। এখান থেকে বিআরটিসি, সাকুরা সহ বিভিন্ন পরিবহনের বাস সরাসরি কুয়াকাটা যায়, ভাড়া পড়বে ৬০০ থেকে ৭৫০ টাকা।\n\nআর লঞ্চে যেতে চাইলে ঢাকা থেকে বরিশাল, আমতলী বা পটুয়াখালি হয়ে কুয়াকাটা যাওয়া যায়। ঢাকার সদরঘাট থেকে বিকাল ৫.৩০ থেকে ৬.৩০ টার মধ্যে এমভি কাজল-৭, এমভি প্রিন্স আওলাদ-৭, এমভি সুন্দরবন-৯ ও ১১, এমভি জামাল-৫, এমভি এ আর খান-১, এমভি সাত্তার খান-১, এমভি কুয়াকাটা-১, এমভি মাহিন রিফাত-১ লঞ্চগুলো পটুয়াখালীর উদ্দেশ্যে ছেড়ে যায়। পটুয়াখালী নেমে বাসযোগে কুয়াকাটা পৌঁছাতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <Button
+
+                    android:id="@+id/textView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    android:background="#F2F1F3"
+                    android:text="অনলাইনে -\nট্রেনের টিকেট : www.esheba.cnsbd.com"
+                    android:textColorLink="#7E90F0"
+                    android:textColor="#0C0B0B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="থাকবেন কোথায় :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="কুয়াকাটায় পর্যটকদের থাকার জন্য বিভিন্ন মানের আবাসিক হোটেল রয়েছে। পর্যটন করপোরেশনের অধীনস্থ  কুয়াকাটা ইয়ুথ ইন (রুমভেদে ভাড়া ২,০০০-৫,৫০০ টাকা) ও পর্যটন হলিডে হোমস্  (রুমভেদে ভাড়া ১,০০০-৩,৫০০ টাকা) সহ আপনার পছন্দমত শহরের অন্যান্য হোটেলগুলোতে থাকতে পারেন। এখানকার জনপ্রিয় সব পর্যটন হোটেলের বিস্তারিত তথ্য জানতে আপনি আমাদের পর্যটন হোটেল ক্যাটাগরি চেক করতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="ভ্রমণে ভোজন :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView69"/>
+
+                <TextView
+                    android:id="@+id/textView5553"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="পর্যটন এলাকায় অনেক  ছোট - বড় হোটেল রয়েছে। এখানে টাটকা মাছ ভেঁজে খাওয়ার সুযোগ রয়েছে। এছাড়া বিভিন্ন ধরণের সামুদ্রিক মাছ ও মাছের শুঁটকি পাওয়া যায়। "
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView2222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="কুয়াকাটা ভ্রমণে দর্শনীয় স্থান :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/textView555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="* গঙ্গামতির চর\n* ফাতরার চর\n* লেবুর চর\n* লাল কাঁকড়ার দ্বীপ\n* কুয়াকাটা জাতীয় উদ্যান\n* রাখাইন পল্লী\n* বার্মিজ মার্কেট"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView2221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="phone"
+                    android:background="#D5D8EE"
+                    android:text="এছাড়া যেকোন সমস্যায় ট্যুরিষ্ট পুলিশের সাহায্য নিন। ট্যুরিষ্ট পুলিশের হটলাইন নাম্বার - ০১৭৬৯৬৯০৭১৯"
+                    android:textColorLink="#2B49E7"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5555" />
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

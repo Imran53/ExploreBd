@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileSalbonActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageSlider5"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+
+
+
+                <TextView
+                    android:lineSpacingExtra="5dp"
+                    android:background="#ffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="20dp"
+                    android:text="পাঁচ তারকা এই হোটেল রয়েছে বিদেশি পর্যটক কিংবা ভ্রমনকারীদের জন্য আধুনিক সব সুবিধা। তাছাড়া এই হোটেলের কামড়া গুলোর ভিন্নতা এবং জৌলস দর্শনার্থীদের বিশেষ ভাবে আকর্ষণ করে। তাদের মধ্যে বিশেষ ভাবে তৈরি কনফারেস্ রুম গুলোতে যে কোন ধরনের অনুষ্ঠান আয়োজন করা যায়।\n রুম ভাড়া:হোটেলটিতে বিদেশি পর্যটকদের জন্য বিশেষ কিছু কামড়া আছে। সেই কামড়া গুলো পুরোদস্তুর বিদেশর হোটেল গুলির আদলে তৈরি। ভাড়া ৫০০০ থেকে ১৫০০০ হাজার পর্যন্ত রয়েছে। ডিলাক্স , লার্জার, রেসিডেস্নিয়াল সুইট, এক্সিকিউটিভ সুইট, ফোর পয়েন্ট সুইট সহো আরো অনেক ধরনের কামড়া রয়েছে হোটেলটিতে। যার প্রতিটি কামড়াই শীতাতপ নিয়ন্ত্রিত। যেভাবে যাবেন: বিমান বন্দর থেকে লং বিচ হোটেল এর দূরত্ব মাত্র ১৯ কিলোমিটার। বিমান বন্দর থেকে বাস কিংবা সিএনজি যোগে হোটেলটিতে আসা যায়।"
+                    android:textSize="15sp"
+                    android:id="@+id/textView5"/>
+
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

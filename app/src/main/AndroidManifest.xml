@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.explorebd">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/travelicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Desh"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".Weather" />
+        <activity android:name=".MapActivity53" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <activity android:name=".Logintest" />
+        <activity android:name=".Signup_Form" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".ProfileHakalukiActivity" />
+        <activity android:name=".ProfileLalbagActivity" />
+        <activity android:name=".ProfileSonargaonActivity" />
+        <activity android:name=".ProfileSalbonActivity" />
+        <activity
+            android:name=".ProfilePaharpurActivity"
+            android:label="@string/profile_pharpur" />
+        <activity
+            android:name=".ProfileKantojirActivity"
+            android:label="@string/profile_kantojir" />
+        <activity
+            android:name=".ProfileAhsanActivity"
+            android:label="@string/profile_ahsan" />
+        <activity
+            android:name=".ProfileMohaActivity"
+            android:label="@string/profile_mohastangorh" />
+        <activity
+            android:name=".ProfileNijhumActivity"
+            android:label="@string/profile_nijhum" />
+        <activity
+            android:name=".ProfileBichanakandiActivity"
+            android:label="@string/profile_bichanakandi" />
+        <activity
+            android:name=".ProfileMadhabActivity"
+            android:label="@string/profile_madhabkundu" />
+        <activity
+            android:name=".ProfileJaflongActivity"
+            android:label="@string/profile_jaflong" />
+        <activity
+            android:name=".ProfileRatargulActivity"
+            android:label="@string/profile_ratargul" />
+        <activity
+            android:name=".ProfileSreeActivity"
+            android:label="@string/profile_sreemangal" />
+        <activity
+            android:name=".ProfileKuakataActivity"
+            android:label="@string/profile_kuakata" />
+        <activity
+            android:name=".ProfileLakeActivity"
+            android:label="@string/profile_foys" />
+        <activity
+            android:name=".ProfileKaptaiActivity"
+            android:label="@string/profile_kaptai" />
+        <activity
+            android:name=".ProfileNilacalActivity"
+            android:label="@string/profile_nilacal" />
+        <activity
+            android:name=".ProfileSajekActivity"
+            android:label="@string/profile_sajek" />
+        <activity
+            android:name=".ProfileSaintActivity"
+            android:label="@string/profile_saintmartin" />
+        <activity
+            android:name=".ProfileCoxActivity"
+            android:label="@string/cox_ac" />
+        <activity android:name=".FacebookActivity" />
+        <activity android:name=".Feedback1Activity" />
+        <activity android:name=".NoteEditorActivity" />
+        <activity
+            android:name=".NoteActivity"
+            android:label="@string/note_ac" />
+        <activity
+            android:name=".Hoteldetail10Activity"
+            android:label="@string/hotel_saintmartin" />
+        <activity
+            android:name=".Hoteldetail9Activity"
+            android:label="@string/hotel_rangamati" />
+        <activity
+            android:name=".Hoteldetail8Activity"
+            android:label="@string/hotel_kuakata" />
+        <activity
+            android:name=".Hoteldetail7Activity"
+            android:label="@string/hotel_bogra" />
+        <activity
+            android:name=".Hoteldetail6Activity"
+            android:label="@string/hotel_khulna" />
+        <activity
+            android:name=".Hoteldetail5Activity"
+            android:label="@string/hotel_bandarban" />
+        <activity
+            android:name=".Hoteldetail4Activity"
+            android:label="@string/hotel_sylhet" />
+        <activity
+            android:name=".Hoteldetail3Activity"
+            android:label="@string/hotel_ctg" />
+        <activity
+            android:name=".Hoteldetail2Activity"
+            android:label="@string/hotel_dhaka" />
+        <activity
+            android:name=".HotelActivity"
+            android:label="@string/hotel_activity" />
+        <activity
+            android:name=".NationalActivity"
+            android:label="@string/national_activity" />
+        <activity android:name=".DetailActivity" />
+        <activity
+            android:name=".FoodActivity"
+            android:label="@string/food_activity" />
+        <activity
+            android:name=".Hoteldetail1Activity"
+            android:label="@string/hotel_cox" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/profile_ac" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/main_activity_title" />
+        <activity android:name=".MaterialActivity" />
+        <activity android:name=".splashscreen" />
+        <activity
+            android:name=".AkrmCcs"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

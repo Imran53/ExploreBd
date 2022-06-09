@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileKantojirActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageSlider5"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+
+                <TextView
+                    android:layout_marginStart="23dp"
+                    android:id="@+id/textView1000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3px"
+                    android:background="#ffff"
+                    android:backgroundTint="#C4FDC9"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="1dp"
+                    android:text="২৫৬ কি.মি."
+                    android:textStyle="normal"
+                    android:textColor="#252121"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:text="কক্সবাজার বিশ্বের দীর্ঘতম এবং বাংলাদেশের অন্যতম পর্যটন এলাকা। এখানে প্রতিবছরই দেশি ও বিদেশি পর্যটকদের ভিড় লেগেই থাকে। কক্সবাজার আসলে একই সাথে পাহাড়, সমুদ্র, নদী এবং সমতল দেখার অপার সুযোগ মেলে। এই সৈকতে দাঁড়িয়ে সূর্যাস্তের অপরূপ দৃশ্য দেখা যায়। "
+                    android:textColor="#413B3B"
+                    android:textSize="16sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="কক্সবাজার ভ্রমণের উৎকৃষ্ট সময় :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="অক্টোবর থেকে মার্চ মাস পর্যন্ত কক্সবাজারের ভ্রমণের উপযুক্ত সময় । এ সময়ে আবহাওয়া ভাল থাকায় পর্যটকদের ভীড় সবচেয়ে বেশি থাকে। ফলে এই সময়টাকে পিক সিজন বলে থাকে। তাই এ সময়ে ভ্রমণের প্ল্যান করলে অবশ্যই আগে থেকে আপনার কাঙ্ক্ষিত হোটেলে বুকিং দিতে হবে।"
+                    android:textColor="#413B3B"
+                    android:textSize="16sp" />
+
+                <TextView
+
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="যেভাবে যাবেন :"
+                    android:textColor="#0C0B0B"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="কক্সবাজারের সরাসরি গাড়ী চলে রাজধানী ঢাকা সহ দেশের প্রধান প্রধান শহরগুলোতে। ঢাকার ফকিরাপুল, আরামবাগ, মতিঝিলসহ বেশ কয়েকটি স্থানে সরাসরি কক্সবাজারের উদ্দেশে বাস ছেড়ে যায়। এসি ও নন এসি, ডিলাক্স ও সাধারণ এসব সরাসরি বাস পরিবহনের ভাড়া পড়বে ৮০০ থেকে ২০০০ টাকা পর্যন্ত। সোহাগ, গ্রীন লাইন ছাড়াও ঈগল ও অন্যান্য পরিবহনের বাস চলাচল করে।\nএছাড়া ঢাকা থেকে ট্রেনে বা বাসে প্রথমে চট্টগ্রাম এবং পরে চট্টগ্রাম থেকে সরাসরি কক্সবাজারে যাওয়া যায়। ঢাকার কমলাপুর থেকে প্রতিদিন ট্রেন বা বাস ছেড়ে যায়। তবে টিকেট বুকিং আগেভাগেই করে রাখা ভালো। "
+                    android:textColor="#413B3B"
+                    android:textSize="16sp" />
+
+                <TextView
+
+                    android:id="@+id/textView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    android:background="#F2F1F3"
+                    android:text="অনলাইনে ট্রেনের টিকিট কাটুন: https://w.w.w.esheba.cnsbd.com/#/"
+                    android:textColorLink="#7E90F0"
+                    android:textColor="#0C0B0B"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="থাকবেন কোথায় :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="ঢাকার ফকিরাপুল, আরামবাগ, মতিঝিলসহ বেশ কয়েকটি স্থানে সরাসরি কক্সবাজারের উদ্দেশে বাস ছেড়ে যায়। এসি ও নন এসি, ডিলাক্স ও সাধারণ এসব সরাসরি বাস পরিবহনের ভাড়া পড়বে ৮০০থেকে ২০০০ টাকা পর্যন্ত। সোহাগ, গ্রীন লাইন ছাড়াও ঈগল ও অন্যান্য পরিবহনের বাস চলাচল করে। এছাড়া ঢাকা থেকে ট্রেনে বা বাসে প্রথমে চট্টগ্রাম এবং পরে চট্টগ্রাম থেকে সরাসরি কক্সবাজারে যাওয়া যায়। ঢাকার কমলাপুর থেকে প্রতিদিন ট্রেন বা বাস ছেড়ে যায়। তবে টিকেট বুকিং আগেভাগেই করে রাখা ভালো।"
+                    android:textColor="#413B3B"
+                    android:textSize="16sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView2222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="কক্সবাজার ভ্রমণে দর্শনীয় স্থান :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/textView555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="পাঁচ তারকা এই হোটেল রয়েছে বিদেশি পর্যটক কিংবা ভ্রমনকারীদের জন্য আধুনিক সব সুবিধা। তাছাড়া এই হোটেলের কামড়া গুলোর ভিন্নতা এবং জৌলস দর্শনার্থীদের বিশেষ ভাবে আকর্ষণ করে। তাদের মধ্যে বিশেষ ভাবে তৈরি কনফারেস্ রুম গুলোতে যে কোন ধরনের অনুষ্ঠান আয়োজন করা যায়। ভাড়া ৫০০০ থেকে ১৫০০০ হাজার পর্যন্ত রয়েছে। ডিলাক্স , লার্জার, রেসিডেস্নিয়াল সুইট, এক্সিকিউটিভ সুইট, ফোর পয়েন্ট সুইট সহো আরো অনেক ধরনের কামড়া রয়েছে হোটেলটিতে। যার প্রতিটি কামড়াই শীতাতপ নিয়ন্ত্রিত। যেভাবে যাবেন: বিমান বন্দর থেকে লং বিচ হোটেল এর দূরত্ব মাত্র ১৯ কিলোমিটার। বিমান বন্দর থেকে বাস কিংবা সিএনজি যোগে হোটেলটিতে আসা যায়।"
+                    android:textColor="#413B3B"
+                    android:textSize="16sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView22222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="20dp"
+                    android:text="সমুদ্রে নামার ক্ষেত্রে সতর্কতা ও অন্যান্য তথ্য :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView5555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#F2F1F3"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="পাঁচ তারকা এই হোটেল রয়েছে বিদেশি পর্যটক কিংবা ভ্রমনকারীদের জন্য আধুনিক সব সুবিধা। তাছাড়া এই হোটেলের কামড়া গুলোর ভিন্নতা এবং জৌলস দর্শনার্থীদের বিশেষ ভাবে আকর্ষণ করে। "
+                    android:textColor="#1F1C1C"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22222" />
+
+                <TextView
+
+                    android:id="@+id/textView2221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="phone"
+                    android:background="#C5CCF3"
+                    android:text="এছাড়া যেকোন সমস্যায় ট্যুরিষ্ট পুলিশের সাহায্য নিন। ট্যুরিষ্ট পুলিশের হটলাইন নাম্বার - ০১৭৬৯৬৯০৭৪০"
+                    android:textColorLink="#2B49E7"
+                    android:textColor="#413B3B"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5555" />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileSaintActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageSlider2"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="18dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src ="@drawable/locationn"
+                        android:id="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:paddingLeft="5dp"
+                        android:textSize="13.6sp"
+                        android:textColor="#4A6ACA"
+                        android:id="@+id/tumi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="কক্সবাজার শহর থেকে সেন্টমার্টিনের দূরত্ব প্রায় ৯৫.২ কি.মি."
+                        android:layout_toEndOf="@+id/imageTumi1"
+                        android:layout_toRightOf="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:text="অপূর্ব প্রাকৃতিক সৌন্দর্যমণ্ডিত সেন্টমার্টিন বাংলাদেশের একমাত্র প্রবাল দ্বীপ। নয়নাভিরাম সৌন্দর্য অবলোকনের ও ভ্রমণের একটি আকর্ষণীয় পর্যটন এলাকা। এটি বাংলাদেশের সর্বদক্ষিণ অংশে বঙ্গোপসাগরের উত্তর-পূর্বে কক্সবাজার জেলার টেকনাফ উপজেলা থেকে ৯ কি.মি দক্ষিণে গড়ে ওঠা ছোট দ্বীপ। প্রচুর নারিকেল গাছ থাকায় দ্বীপটি ‘নারিকেল জিঞ্জিরা’নামেও পরিচিত। এ দ্বীপে আরও রয়েছে বিভিন্ন প্রজাতির প্রবাল, শামুক, ঝিনুক, স্তন্যপায়ী ও অমেরুদগুী প্রাণী। এ ছাড়া রয়েছে চুনাপাথর, বেলেপাথর, বালুচর ও ঝিনুক পাহাড়। "
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:background="@drawable/rounded_border"
+                    android:id="@+id/textView22222111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="কক্সবাজার বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে অবস্থিত একটি শহর, মৎস্য বন্দর এবং পর্যটন কেন্দ্র। এটি চট্টগ্রাম বিভাগের কক্সবাজার জেলার সদর দপ্তর। কক্সবাজার তার নৈসর্গিক সৌন্দর্য্যের জন্য বিখ্যাত। এখানে রয়েছে বিশ্বের দীর্ঘতম অবিচ্ছিন্ন প্রাকৃতিক বালুময় সমুদ্র সৈকত, যা ১২২ কি.মি. পর্যন্ত বিস্তৃত। এখানে রয়েছে বাংলাদেশের বৃহত্তম সামুদ্রিক মৎস্য বন্দর এবং সাবমেরিন ক্যাবল ল্যান্ডিং স্টেশন।(সূত্রঃ উইকিপিডিয়া)"
+                    android:textColor="#413B3B"
+                    android:textSize="12sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="যেভাবে যাবেন :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="সেন্টমার্টিন যেতে হলে প্রথমে কক্সবাজার জেলার টেকনাফে আসতে হবে। কক্সবাজার থেকে বাস, মাইক্রোবাস কিংবা জিপ  ভাড়া করে টেকনাফ যাওয়া যায়, সময় লাগবে প্রায় দেড় থেকে দুই ঘণ্টার মত । এছাড়া ঢাকা ও চট্টগ্রাম থেকেও বাসে করে সরাসরি টেকনাফে যাওয়া যায়। ঢাকার ফকিরাপুল ও সায়েদাবাদ থেকে  সেন্টমার্টিন পরিবহন, শ্যামলী, এস আলম, মডার্ন লাইন, গ্রীন লাইন ইত্যাদি বাস সরাসরি টেকনাফ যায় । মানভেদে এসব পরিবহনে ভ্রমণ ভাড়া সাধারণত ৯০০ থেকে ২০০০ টাকার মধ্যে হয়ে থাকে এবং সময় লাগবে প্রায় ১০ থেকে ১২ ঘণ্টার মত।\n\nটেকনাফ থেকে সেন্টমার্টিনে প্রতিদিন সকাল থেকে আসা-যাওয়া করে বিভিন্ন কোম্পানির জাহাজ। জেটি ঘাট থেকে প্রতিদিন জাহাজগুলো সকাল ৯.০০-৯.৩০ মিনিটে সেন্টমার্টিনের উদ্দেশ্যে ছেড়ে যায় এবং সেন্টমার্টিন থেকে ফেরত আসে বিকাল ৩.০০-৩.৩০ মিনিটে।  জাহাজে করে টেকনাফ থেকে সেন্টমার্টিন যেতে সময় লাগে দুই থেকে আড়াই ঘন্টা। জাহাজের শ্রেনীভেদে আসা-যাওয়ার ভাড়া ৫৫০-৮০০ টাকার মত।  সধারণত নভেম্বর থেকে মার্চ এই পাঁচ মাস জাহাজ চলে। এছাড়াও এই রুটে বেশ কিছু ট্রলার ও স্পিডবোট চলাচল করে। শীত মৌসুম ছাড়া বাকি সময় সাগর উত্তাল থাকে, তাই এই সময়ে ভ্রমণ নিরাপদ নয়। "
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    android:background="#F2F1F3"
+                    android:text="অনলাইনে বাসের টিকেটঃ shohoz.com\nট্রেনের টিকেটঃ esheba.cnsbd.com"
+                    android:textColorLink="#7E90F0"
+                    android:textColor="#0C0B0B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+                <TextView
+
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="থাকবেন কোথায় :"
+                    android:textColor="#0C0B0B"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="সেন্টমার্টিনে রাতে থাকার জন্য বেশ কিছু উন্নতমানের কয়েকটি হোটেল ও কটেজ রয়েছে। এছাড়াও অনেক বাড়িতে পর্যটকদের জন্য থাকার সুব্যবস্থা আছে। এছাড়া এখানকার জনপ্রিয় সব পর্যটন হোটেলের বিস্তারিত তথ্য জানতে আপনি আমাদের পর্যটন হোটেল ক্যাটাগরি চেক করতে পারেন। "
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="ভ্রমণে ভোজন :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView69"/>
+
+                <TextView
+                    android:id="@+id/textView5553"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="সেন্টমার্টিনের সবচেয়ে প্রসিদ্ধ জিনিস হল ডাব যা একাধারে মিষ্টি ও সুস্বাদু।  বাজারে জেটির কাছেই ২০/২৫ টাকায় পেয়ে যাবেন এই মিষ্টি ডাব। এছাড়া সব খাবার হোটেলের বাইরে টেবিলে সাজিয়ে রাখা বিভিন্ন সামুদ্রিক মাছ যেমন  রূপচাঁদা, কোরাল মাছ, সুন্দরী পোয়া, ইলিশ, লবস্টার, কালাচাঁদা ইত্যাদির স্বাদ নিতে ভুলবেন না। রাতের বেলা বার-বি-কিউ করতে পারবেন, মাছ বাছাই করে হোটেল কতৃপক্ষকে বললে বাকি কাজ তারাই সম্পন্ন করে দিবে।\n\nসেন্টমার্টিনের মূল দ্বীপ থেকে ছেড়া দ্বীপ যেতে চাইলে আপনি হেঁটে কিংবা সাইকেল প্যাডেল করতে করতে ও চলে যেতে পারেন,যাওয়ার আগে জোয়ার ভাটার সময় জেনে নিয়ে যাবেন,সাইকেল ভাড়া ঘন্টা প্রতি ৩০ - ৪০ টাকা।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView22222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="20dp"
+                    android:text="সেন্টমার্টিন ভ্রমনে সতর্কতা :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView5555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#F2F1F3"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="* সমুদ্রে নামার সময় সতর্ক থাকুন।\n* নৌযান চলাচল কালে লাইফ জাকেট  পরিধান করুন।\n* পলিথিন, প্লাস্টিক সহ অপচনশীল বস্তু  যেখানে  সেখানে ফেলবেন না।\n* প্রবাল উত্তোলন, কেনা-বেচা সম্পূর্ণরুপে  নিষিদ্ধ ও আইনত দন্ডনীয় অপরাধ।\n* ছেড়া দ্বীপে যাওয়ার ক্ষেত্রে সঙ্গে অবশ্যই পানির বোতল সঙ্গে নিয়ে যাবেন।\n* সেন্টমার্টিনে মিষ্টিপানির পরিমান খুব কম, তাই মিষ্টিপানির অপব্যবহার পরিহার করুন।"
+                    android:textColor="#1F1C1C"
+                    android:textSize="16.5sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22222" />
+
+                <TextView
+
+                    android:id="@+id/textView2221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="phone"
+                    android:background="#D5D8EE"
+                    android:text="এছাড়া যেকোন সমস্যায় ট্যুরিষ্ট পুলিশের সাহায্য নিন। ট্যুরিষ্ট পুলিশের হটলাইন নাম্বার - ০১৭৬৯৬৯০৭৩২"
+                    android:textColorLink="#2B49E7"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5555" />
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

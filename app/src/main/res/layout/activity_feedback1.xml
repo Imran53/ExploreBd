@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10dp"
+android:orientation="vertical"
+android:weightSum="4"
+tools:context=".Feedback1Activity">
+
+<LinearLayout
+    android:layout_weight="0.5"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/nameEditTextId"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="নাম"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_weight="1.5"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/messageEditTextId"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="আপনার মতামত"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+
+    <Button
+        android:background="@drawable/button_desgn"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:text="পাঠান"
+        android:id="@+id/sendButtonId"
+        android:layout_width="200dp"
+        android:layout_height="30dp"/>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

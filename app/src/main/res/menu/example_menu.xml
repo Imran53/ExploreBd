@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/shareId1"
+        android:title="শেয়ার করুন"
+        android:iconTint="#64D0EE"
+        android:iconTintMode="src_atop"
+        android:icon="@drawable/style"/>
+
+</menu>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileCoxActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageSlider5"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="18dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src ="@drawable/locationn"
+                        android:id="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:paddingLeft="5dp"
+                        android:textSize="13.7sp"
+                        android:textColor="#4A6ACA"
+                        android:id="@+id/tumi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সিলেট শহর থেকে বিছানাকান্দি প্রায় ৩৮.৭ কি.মি. দূরে"
+                        android:layout_toEndOf="@+id/imageTumi1"
+                        android:layout_toRightOf="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:text="প্রাকৃতিক সৌন্দর্যের লীলাভূমি সিলেটের বিছানাকান্দি। এটি সিলেটের গোয়াইনঘাট উপজেলার রুস্তম ইউনিয়নে বাংলাদেশ-ভারত সীমান্তে অবস্থিত। নদীর স্বচ্ছ পানি, পাথর, পাহাড় আর আকাশ মিলিয়ে এখানকার সৌন্দর্য অসাধারণ। ছোট বড় পাথরের ওপর দিয়ে ছুটে আসা স্বচ্ছ পানির স্রোতধারা বিছানাকান্দিতে সৃষ্টি করেছে এক মনোরম পরিবেশ।\n\nবিছানাকান্দি পর্যটন এলাকাটি মূলত একটি পাথর কোয়েরি যেখানে নদী থেকে পাথর সংগ্রহ করা হয়। এখানে-ওখানে ছড়িয়ে-ছিটিয়ে রয়েছে পাথর আর পাথর। দেখলে মনে হয়, কেউ হয়তো বিছিয়ে রেখেছে পাথরের বিছানা। এই জায়গায় খাসিয়া পর্বতের বিভিন্ন স্তর এসে একবিন্দুতে মিলিত হয়েছে। খাসিয়া পর্বত থেকে নেমে আসা একটি ঝরনা এখানে একটি হ্রদের সৃষ্টি করেছে যা পিয়াইন নদীর সাথে গিয়ে সংযুক্ত হয়েছে। বিছানাকান্দির ওপারে ভারত অংশে উঁচু-নিচু পাহাড়ের সারি। সবুজ পোশাকের পাহাড়গুলি যেন দাঁড়িয়ে থাকে একে অপরের গায়ে হেলান দিয়ে। "
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:background="@drawable/rounded_border"
+                    android:id="@+id/textView22222111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="সিলেট উত্তর-পূর্ব বাংলাদেশের একটি প্রধান শহর, একই সাথে এই শহরটি সিলেট বিভাগের বিভাগীয় শহর। এটি সিলেট জেলার অন্তর্গত। সিলেট সিটি কর্পোরেশনের আওতাধীন এলাকাই মূলত সিলেট শহর হিসেবে পরিচিত। সিলেট ২০০৯ সালের মার্চ মাসে একটি মেট্রোপলিটন শহরের মর্যাদা লাভ করে। সুরমা নদীর তীরবর্তী এই শহরটি বাংলাদেশের অন্যতম গুরুত্বপুর্ণ শহর। প্রাকৃতিক সৌন্দর্য মন্ডিত এ শহরটি দেশের আধ্যাত্মিক রাজধানী হিসেবে খ্যাত। সিলেট অর্থনৈতিকভাবে বাংলাদেশের সবচেয়ে সমৃদ্ধ জেলা হিসেবে পরিচিত।(সূত্রঃ উইকিপিডিয়া)"
+                    android:textColor="#413B3B"
+                    android:textSize="12sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="বিছানাকান্দি ভ্রমণের উৎকৃষ্ট সময় :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="বিছানাকান্দিতে বছরের যে কোন সময় ভ্রমণ করতে পারেন। তবে বর্ষাকাল হচ্ছে বিছানাকান্দি ভ্রমণের উপযুক্ত সময়। চারদিকে প্রচুর পানি প্রবাহ থাকার কারণে এসময় বিছানাকান্দি পূর্ণযৌবন ফিরে পায়। পাথর বোঝাই নৌকা, ট্রাকের আনাগোনা এবং পাথর উত্তোলনের কারনে শীতকাল বিছানাকান্দিতে আসার জন্য একেবারেই উপযুক্ত সময় নয়।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="যেভাবে যাবেন :"
+                    android:textColor="#0C0B0B"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="সড়ক, রেল ও আকাশ পথে ঢাকা থেকে সরাসরি সিলেট আসতে পারেন। ঢাকার সায়েদাবাদ কিংবা ফকিরাপুল থেকে  সৌদিয়া, হানিফ, ইউনিক, এনা, শ্যামলী, গ্রীনলাইন, সোহাগ  ইত্যাদি পরিবহনের বাসে করে সিলেটে যেতে পারেন, বাসভেদে ভাড়া পড়বে ৪০০ - ১১০০ টাকা।  কমলাপুর বা বিমানবন্দ্র স্টেশন থেকে আন্তঃনগর ট্রেন উপবন, জয়ন্তিকা ও পারাবাত এক্সপ্রেস এ চড়েও যেতে পারেন সিলেট।\n\nএছাড়া চট্টগ্রাম থেকে পাহাড়িকা এক্সপ্রেস ও উদয়ন এক্সপ্রেস সিলেটের উদ্দেশ্যে যাত্রা করে। মানভেদে ভাড়া জনপ্রতি ১৪০ টাকা - ৯৪৩ টাকা পর্যন্ত।\n\nসিলেট থেকে বিছানাকান্দি যাওয়ার জন্য প্রথমে আপনাকে হাদারপার নামক জায়গায় যেতে হবে। এজন্য সিলেটের আম্বরখানা থেকে সিএনজিতে করে হাদারপার যাওয়া যায়, জনপ্রতি ভাড়া পড়বে ১৫০ - ১৬০ টাকা। হাদারপার এসে নৌকা ঘাট থেকে নৌকা ঠিক করে বিছানাকান্দি যেতে হবে। "
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <Button
+
+                    android:id="@+id/textView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    android:background="#F2F1F3"
+                    android:text="অনলাইনে -\nট্রেনের টিকেট : www.esheba.cnsbd.com"
+                    android:textColorLink="#7E90F0"
+                    android:textColor="#0C0B0B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="থাকবেন কোথায় :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="বিছানাকান্দি যাওয়া আসার সময় কম লাগার কারণে থাকার জন্য সিলেট শহরকে বেছে নিতে পারেন।  সিলেটে থাকার জন্য রয়েছে অনেক নান্দনিক মনোরম রিসোর্ট। শহরের শাহজালাল উপশহরে রোজ ভিউ, দরগাহ গেইটে স্টার প্যাসিফিক, তামাবিল রোডে মিরা গার্ডেন, খাদিমনগরে নাজিমগড় গার্ডেন রিসোর্ট সহ আপনার পছন্দমত শহরের অন্যান্য হোটেলগুলোতে থাকতে পারেন।\n\nএখানকার জনপ্রিয় সব পর্যটন হোটেলের বিস্তারিত তথ্য জানতে আপনি আমাদের পর্যটন হোটেল ক্যাটাগরি চেক করতে পারেন। "
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="ভ্রমণে ভোজন :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView69"/>
+
+                <TextView
+                    android:id="@+id/textView5553"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="বিছানাকান্দিতে তেমন কোন ভালোমানের খাবার রেস্টুরেন্ট নেই। তাই বিছানাকান্দি যাওয়ার সময় সঙ্গে করে শুকনো খাবার, পানি নিয়ে যাওয়া ভাল। হাদারপার বাজারে গনি মিয়ার ভূনা খিচুড়ি খেতে পারেন। এছাড়া সিলেটর জিন্দাবাজার এলাকার বিখ্যাত পাঁচ ভাই, পানসী কিংবা পালকি রেস্টুরেন্টে সুলভ মূল্যে পছন্দমত দেশী খাবার খেতে পারেন। এগুলোতে প্রায় ২৯ প্রকারের ভর্তা আছে।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView22222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="20dp"
+                    android:text="বিছানাকান্দি ভ্রমণে সতর্কতা :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView5555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#F2F1F3"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="পাথরে চলার সময় বাড়তে সতর্কতা অবলম্বন করা ভালো। নয়তো পা পিছিলে মারাত্মক দুর্ঘটনা ঘটতে পারে। পানিতে কোন ময়লা আবর্জনা ফেলা থেকে বিরত থাকুন। এর সৌন্দর্য রক্ষা করা আমাদের দায়িত্ব। বিছনাকান্দি যেহেতু জিরো পয়েন্টে অবস্থিত তাই ভ্রমনকারীদের বর্ডারের আশেপাশে বাড়তি সতর্কতা অবলম্বন করা উচিত।  অনেক সময় বর্ষাকালে এখানে আকস্মিক বন্যা হতে পারে। তাই যাবার পূর্বে আবহাওয়া সম্পর্কে তথ্য জেনে নেওয়া উচিত।"
+                    android:textColor="#1F1C1C"
+                    android:textSize="16.5sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22222" />
+
+                <TextView
+
+                    android:id="@+id/textView2221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="phone"
+                    android:background="#D5D8EE"
+                    android:text="এছাড়া যেকোন সমস্যায় ট্যুরিষ্ট পুলিশের সাহায্য নিন। ট্যুরিষ্ট পুলিশের হটলাইন নাম্বার - ০১৭৬৯৬৯০৭১৮"
+                    android:textColorLink="#2B49E7"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5555" />
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

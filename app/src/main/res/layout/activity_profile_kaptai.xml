@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileCoxActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageSlider5"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="18dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src ="@drawable/locationn"
+                        android:id="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:paddingLeft="5dp"
+                        android:textSize="13.6sp"
+                        android:textColor="#4A6ACA"
+                        android:id="@+id/tumi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="রাঙ্গামাটি শহর থেকে কাপ্তাই হ্রদের দূরত্ব প্রায় ৫.৭ কি.মি."
+                        android:layout_toEndOf="@+id/imageTumi1"
+                        android:layout_toRightOf="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+                <TextView
+
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:text="কাপ্তাই লেক দক্ষিণ এশিয়ার বৃহত্তম মনুষ্যসৃষ্ট স্বাদুপানির হ্রদ।  প্রায় ১১,০০০ হাজার বর্গ কিলোমিটার পর্যন্ত বিস্তৃত কৃত্রিম এই হ্রদটিতে প্রকৃতির প্রায় সব রূপ-রং যেন মিলে মিশে একাকার হয়ে গেছে। এই লেকের একদিকে পাহাড়গুলোতে যেমন আছে সবুজে ঘেরা গাছের সমারোহ, অপরদিকে লেকের জলে রয়েছে বহু প্রজাতির মাছ।\n\n১৯৫৬ সালে কাপ্তাই পানি বিদ্যুৎকেন্দ্র নির্মাণের জন্য কাপ্তাইয়ে কর্ণফুলী নদীতে বাঁধ দেয়া হয়। বাঁধ দেয়ার ফলে সৃষ্টি হয় বৃহত্তম কাপ্তাই হ্রদ। কাপ্তাই আর রাঙ্গামাটির মাঝখানে বিস্তীর্ণ এলাকা জুড়ে স্ফটিক নীল জলের কৃত্রিম হ্রদ কাপ্তাই হ্রদ বা কাপ্তাই লেক। কৃত্রিম হলেও প্রকৃতির অপার সৌন্দর্য ঘিরে আছে এই হ্রদে। সেই সৌন্দর্যের সুধা পান করতে সারা বছরই প্রকৃতিপ্রেমী পর্যটকদের ভিড় লেগে থাকে কাপ্তাইয়ে।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:background="@drawable/rounded_border"
+                    android:id="@+id/textView22222111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="রাঙ্গামাটি জেলা বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে অবস্থিত চট্টগ্রাম বিভাগের একটি প্রশাসনিক অঞ্চল। এটি একটি পার্বত্য জেলা। এটি বাংলাদেশের বৃৃৃহত্তম জেলা।(সূত্রঃ উইকিপিডিয়া)"
+                    android:textColor="#413B3B"
+                    android:textSize="12sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="যেভাবে যাবেন :"
+                    android:textColor="#0C0B0B"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="ঢাকা থেকে বাসে করে রাঙ্গামাটিতে যাওয়া যায়। হানিফ, ইউনিক, সৌদিয়া, এস আলম, শ্যামলী ইত্যাদি পরিবহনের বাসে করে ৭ - ৮ ঘণ্টার মধ্যে ঢাকা থেকে রাঙ্গামাটিতে পৌঁছে যাবেন। এতে ভাড়া পড়বে ৬০০ টাকা।\n\nএছাড়া চট্টগ্রাম থেকেও বাসযোগে কাপ্তাই যেতে পারেন। চট্রগ্রাম বহদ্দারহাট থার্মিনাল বাসস্ট্যান্ড থেকে প্রতি ৩০ মিনিট অন্তর অন্তর কাপ্তাইয়ের জন্য বাস ছাড়ে। এই বাসগুলোতে যেতে চাইলে ভাড়া পড়বে ৭০-১২০ টাকা। মাত্র ২ ঘন্টার মধ্যেই পৌঁছে যাবেন কাপ্তাই লেকে। "
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <Button
+
+                    android:id="@+id/textView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    android:background="#F2F1F3"
+                    android:text="অনলাইনে -\nট্রেনের টিকেট : www.esheba.cnsbd.com"
+                    android:textColorLink="#7E90F0"
+                    android:textColor="#0C0B0B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="থাকবেন কোথায় :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="কাপ্তাই লেকের ধাঁরে রাতে থাকার জন্য এখনো ভাল মানের হোটেল - রিসোর্ট গড়ে উঠে নাই। তাই থাকার প্ল্যান নিয়ে আসলে আগে থেকেই কাপ্তাই সরকারি রেস্ট হাউস কতৃপক্ষের সাথে যোগাযোগ করে আসা ভালো। তাছাড়াও পিডিবি, পানি উন্নয়ন বোর্ড, সেনাবাহিনী কিংবা বন বিভাগের রেস্ট হাউসগুলোতে থাকতে পারেন। সেক্ষেত্রে সংশ্লিষ্ট কতৃপক্ষের কাছ থেকে অনুমতি নিতে হবে। আপনি চাইলে লেক প্যারাডাইস পিকনিক স্পটেও থাকতে পারেন। এক্ষেত্রে বাড়তি টাকা দিতে হবে।\n\nএখানকার জনপ্রিয় সব পর্যটন হোটেলের বিস্তারিত তথ্য জানতে আপনি আমাদের পর্যটন হোটেল ক্যাটাগরি চেক করতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="ভ্রমণে ভোজন :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView69"/>
+
+                <TextView
+                    android:id="@+id/textView5553"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="কাপ্তাইয়ে অনেক ছোট বড় রেস্টুরেন্ট রয়েছে । এছাড়া লেকের মধ্যে ছোট ছোট  দ্বীপগুলোতে রয়েছে কিছু রেস্টুরেন্ট। ঘুরাঘুরির মাঝে এইসব রেস্টুরেন্টগুলোতে খেতে পারেন । কাপ্তাই হ্রদে নৌবাহিনীর ঘাঁটি সংলগ্ন ভাসমান রেস্টুরেন্ট রয়েছে। সকাল ১০টা থেকে সন্ধ্যা পর্যন্ত খোলা থাকে এই রেস্টুরেন্ট। চাইলে এই রেস্টুরেন্টে গিয়েও খেতে পারেন।
+"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView2222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="কাপ্তাই ভ্রমণে দর্শনীয় স্থান :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+                <TextView
+                    android:id="@+id/textView1132"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="কাপ্তাই ন্যাশনাল পার্ক :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView1111555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="কাপ্তাইয়ে বেড়াতে গেলে পর্যটকদের প্রধান আকর্ষণ থাকে পার্বত্য চট্টগ্রাম দক্ষিণ বন বিভাগের অধীনস্থ কাপ্তাই ন্যাশনাল পার্ককে ঘিরে। পার্কে প্রবেশ করতেই পাখির কিচির-মিচির, বানরের লম্ফঝম্প আর নানা প্রজাতীর বন্যপ্রাণির আনাগোনা যে কোনো পর্যটককে অভিভূত করবে। এই পার্ক সবার জন‌্য উন্মুক্ত।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+                    android:id="@+id/textView311112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="প্যারাডাইস পিকনিক স্পট : "
+                    android:textColor="#0C0B0B"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView51111155"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="পাহাড় থেকে লেকের অপার সৌন্দর্য উপভোগ করতে চাইলে এই পিকনিক স্পট ঘুরে আসতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+                    android:id="@+id/textView31112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="ঝুলন্ত ব্রিজ :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView51155"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="ব্রিজে উঠে প্রকৃতির সৌন্দর্য দেখতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+                    android:id="@+id/textView3112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="শুভলং ঝর্ণা :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView5155"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="কাপ্তাই লেকে অনেক পাহাড়ি ঝর্ণার মধ্যে অন্যতম হচ্ছে শুভলং ঝর্ণা । নৌকা করে আপনি এই ঝর্ণাটি খুব কাছ থেকে দেখে নিতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+                    android:id="@+id/textView312"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="শেখ রাসেল ইকোপার্ক :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="এই পার্কে রয়েছে ক্যাবল কারের ব্যবস্থা। ক্যাবল কারে চড়ার ইচ্ছা থেকে থাকলে এই পার্কে গিয়ে এই অভিজ্ঞতাও নিয়ে নিতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+                    android:id="@+id/textView3122"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="কায়াকিং এর ব্যবস্থা :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView5552"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="লেকের কাছেই কর্ণফুলি নদীতে রয়েছে কায়াকিং এর ব্যবস্থা। আপনি চাইলে এই অভিজ্ঞতা নিয়ে নিতে পারেন।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView2221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="phone"
+                    android:background="#D5D8EE"
+                    android:text="এছাড়া যেকোন সমস্যায় ট্যুরিষ্ট পুলিশের সাহায্য নিন। ট্যুরিষ্ট পুলিশের হটলাইন নাম্বার - ০১৭৬৯৬৯৩০৩৬"
+                    android:textColorLink="#2B49E7"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5555" />
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

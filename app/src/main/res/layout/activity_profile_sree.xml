@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileCoxActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageSlider5"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="18dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src ="@drawable/locationn"
+                        android:id="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:paddingLeft="5dp"
+                        android:textSize="13.6sp"
+                        android:textColor="#4A6ACA"
+                        android:id="@+id/tumi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সিলেট থেকে শ্রীমঙ্গল দূরত্ব প্রায় ৮২.১ কি.মি."
+                        android:layout_toEndOf="@+id/imageTumi1"
+                        android:layout_toRightOf="@+id/imageTumi1"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:text="চায়ের রাজধানী খ্যাত শ্রীমঙ্গল সিলেট বিভাগের মৌলভীবাজার জেলায় অবস্থিত। ছোট-বড় মিলিয়ে এ জেলায় চা-বাগান রয়েছে প্রায় ৯২ টি। এই চা বাগানগুলো ইংরেজ রাজদের শাসনকালের স্মৃতি বহন করছে। ইংরেজরাই এখানে চা চাষের সূচনা করেছিল এবং সেই সময়ের মতো আজও চা বাগানের ম্যানেজারেরা কাঠের তৈরি সাদা রঙের ভবনে বাস করেন।  এখানকার মাইলের পর মাইল বিস্তৃত সারি সারি চা বাগান দেখে মনে হবে যেন পাহাড়ের ঢালে সবুজ গালিচা বিছানো রয়েছে। বাংলাদেশের সবচেয়ে উন্নতমানের চা এখানেই উৎপন্ন হয়ে থাকে।\n\nঅধিক ফলন ও মানসম্মত চা পাওয়ার লক্ষ্যে এখানে গড়ে উঠেছে গবেষণা কেন্দ্র। বাংলাদেশ চা গবেষণা কেন্দ্রটি (বিটিআরআই) শ্রীমঙ্গলের মূল শহর থেকে মাত্র দুই কিলোমিটার দূরে অবস্থিত। শহর থেকে ১০ থেকে ১৫ টাকা রিকশা ভাড়া দিয়ে সহজেই বিটিআরআই পৌঁছে যেতে পারেন। রিকশা থেকে নামা মাত্রই চোখে পড়বে হরেক রকম ফুলের সমাহার, চা ম্যানুফ্যাকচারিংসহ টি টেস্টিং ল্যাব, গবেষণা ফ্যাক্টরিসহ বাংলাদেশের একমাত্র ভেষজ উদ্ভিদের বাগান। বিটিআরআইয়ের প্রাকৃতিক পরিবেশ মনোমুগ্ধকর।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:background="@drawable/rounded_border"
+                    android:id="@+id/textView22222111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="সিলেট উত্তর-পূর্ব বাংলাদেশের একটি প্রধান শহর, একই সাথে এই শহরটি সিলেট বিভাগের বিভাগীয় শহর। এটি সিলেট জেলার অন্তর্গত। সিলেট সিটি কর্পোরেশনের আওতাধীন এলাকাই মূলত সিলেট শহর হিসেবে পরিচিত। সিলেট ২০০৯ সালের মার্চ মাসে একটি মেট্রোপলিটন শহরের মর্যাদা লাভ করে। সুরমা নদীর তীরবর্তী এই শহরটি বাংলাদেশের অন্যতম গুরুত্বপুর্ণ শহর। প্রাকৃতিক সৌন্দর্য মন্ডিত এ শহরটি দেশের আধ্যাত্মিক রাজধানী হিসেবে খ্যাত। সিলেট অর্থনৈতিকভাবে বাংলাদেশের সবচেয়ে সমৃদ্ধ জেলা হিসেবে পরিচিত।(সূত্রঃ উইকিপিডিয়া)"
+                    android:textColor="#413B3B"
+                    android:textSize="12sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="যেভাবে যাবেন :"
+                    android:textColor="#0C0B0B"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="ঢাকা থেকে সড়কপথে এবং রেলপথে সরাসরি শ্রীমঙ্গলে যেতে পারবেন। ঢাকার সায়েদাবাদ কিংবা ফকিরাপুল থেকে বিআরটিসি, হানিফ, এনা, শ্যামলী ইত্যাদি পরিবহনের বাসে করে শ্রীমঙ্গল যেতে পারেন, বাসভেদে ভাড়া পড়বে ৩৮০ - ৪০০ টাকা। কমলাপুর স্টেশন থেকে আন্তঃনগর ট্রেন পারাবত এক্সপ্রেস, জয়ন্তিকা এক্সপ্রেস, ও উপবন এক্সপ্রেস এ চড়েও যেতে পারেন শ্রীমঙ্গল। ট্রেনের টিকিটের ভাড়া মানভেদে ১৮৫ টাকা - ১২০০ টাকা পযর্ন্ত।\n\nএছাড়া চট্টগ্রাম থেকে পাহাড়িকা এক্সপ্রেস ও উদয়ন এক্সপ্রেস সিলেটের উদ্দেশ্যে যাত্রা করে। মানভেদে ভাড়া জনপ্রতি  ১৪০ টাকা - ৯৪৩ টাকা পর্যন্ত।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <Button
+
+                    android:id="@+id/textView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    android:background="#F2F1F3"
+                    android:text="অনলাইনে -\nট্রেনের টিকেট : www.esheba.cnsbd.com"
+                    android:textColorLink="#7E90F0"
+                    android:textColor="#0C0B0B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="থাকবেন কোথায় :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="আপনি যদি শ্রীমঙ্গলের চা বাগানের সৌন্দর্য কাছ থেকে উপভোগ করতে চান তবে আপনাকে থাকতে হবে শ্রীমঙ্গল টি রিসোর্টে। বাংলাদেশ টি বোর্ডের ব্যবস্থাপনায়  এই রিসোর্টটি পরিচালিত হচ্ছে। শ্রীমঙ্গল শহর থেকে ৪ কিলোমিটার দূরে ভাড়াউড়া চা বাগানের সাথে এই রিসোর্টটি অবস্থিত। পাহাড়ি সৌন্দর্যে ভরপুর কয়েকটি টিলা ও চা বাগান নিয়ে এই রিসোর্টটি তৈরি হয়েছে। নিরিবিলি অবকাশ কাটানোর জন্য অনন্য এক জায়গা এই টি রিসোর্ট। অত্যন্ত সুন্দর এই রিসোর্টটি দারুণ গোছানো। এর চারপাশ পাহাড়ি সৌন্দর্যের এক লীলাভূমি। পাহাড়ি টিলার বুকে সবুজে আবৃত সারি সারি চা বাগানের অপরূপ সৌন্দর্য মন ভরে এখানে দেখতে পাবেন। এখানে প্রতি রাতের জন্য ভাড়া পড়বে ৫,০০০ - ৮,০০০ টাকা।\n\nএছাড়া শ্রীমঙ্গলে থাকার জন্য রয়েছে বেশকিছু মনোরম রিসোর্ট। পাঁচ তারকা মানের গ্র্যান্ড সুলতান গলফ রিসোর্ট  (রুমভেদে ভাড়া ২৪,০০০ -৭৮,০০০ টাকা), নভেম ইকো রিসোর্ট  (রুমভেদে ভাড়া ৮,০০০ - ১৭,৫০০ টাকা), লেমন গার্ডেন রিসোর্ট (রুমভেদে ভাড়া ৩,০০০ - ৮,০০০ টাকা), নিসর্গ লিচিবাড়ি কটেজ  (রুমভেদে ভাড়া ২,০০০ - ৪,৫০০ টাকা),  নিসর্গ ইকো কটেজ (রুমভেদে ভাড়া ২,০০০ - ৩,৫০০ টাকা) ইত্যাদি উল্লেখযোগ্য।"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="ভ্রমণে ভোজন :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView69"/>
+
+                <TextView
+                    android:id="@+id/textView5553"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="চায়ের রাজধানী শ্রীমঙ্গলের অন্যতম আকর্ষণ ‘সাত রঙা চা’। গ্রীন চা, ব্ল্যাক চা, লেবু, আদা, দুধ মিশ্রনেই তৈরি হয় এই চা। রমেশ রাম গৌড় হচ্ছেন এই সাত রঙ চায়ের উদ্ভাবক। একই গ্লাসের মধ্যে স্তরে স্তরে সাজানো সাত রঙ চা। এই চা বানানোর প্রক্রিয়া কিছুটা গোপনেই করে থাকেন দোকানীরা। এখানে বেড়াতে গেলে এ চায়ের স্বাদ নিতে ভুলবেন না!"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+
+                <TextView
+
+                    android:id="@+id/textView2222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="20dp"
+                    android:text="শ্রীমঙ্গল ভ্রমণে দর্শনীয় স্থান :"
+                    android:textColor="#0C0B0B"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/textView555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffff"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="20dp"
+                    android:text="* এশিয়ার বৃহত্তম হাকালুকি হাওর\n* দেশের সর্ববৃহৎ জলপ্রপাত মাধবকুণ্ড\n* লাউয়াছড়া জাতীয় উদ্যান\n* নয়নাভিরাম মাধবপুর লেক\n* ৭১’এর বধ্যভূমি\n* খাসিয়া পল্লী\n* চা গবেষণা কেন্দ্র"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp" />
+
+                <TextView
+
+                    android:id="@+id/textView2221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="20dp"
+                    android:linksClickable="true"
+                    android:autoLink="phone"
+                    android:background="#D5D8EE"
+                    android:text="এছাড়া যেকোন সমস্যায় ট্যুরিষ্ট পুলিশের সাহায্য নিন। ট্যুরিষ্ট পুলিশের হটলাইন নাম্বার - ০১৭৬৯৬৯০৭১৮"
+                    android:textColorLink="#2B49E7"
+                    android:textColor="#413B3B"
+                    android:textSize="16.5sp"
+                    android:lineSpacingExtra="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5555" />
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
