@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Explore bd</string>
-    <string name="map_key" translatable="false"> AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="map_key" translatable="false"> Add your google map api</string>
 
 
     <string name="main_activity_title">পর্যটন কেন্দ্র</string>
